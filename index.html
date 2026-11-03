@@ -1,16 +1,85 @@
+
 <!DOCTYPE html>
 <html lang="bg">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GSM Сервиз Перник | Възстановяване на Данни и Facebook</title>
-    <meta name="description" content="Професионален GSM сервиз в Перник на ул. Търговска 15. Експресен ремонт, извличане на изтрити снимки от телефони и възстановяване на хакнати Facebook профили.">
+    
+    <!-- SEO Метаданни -->
+    <title>GSM Сервиз Александър Перник | Ремонт на iPhone, Samsung и Възстановяване на Данни</title>
+    <meta name="description" content="Професионален GSM сервиз в Перник, кв. Изток, Кооперативен пазар. Експресен ремонт на iPhone, Samsung, смяна на оригинални дисплеи и батерии с 1 година гаранция. Софтуерно отключване и възстановяване на данни.">
+    <link rel="canonical" href="https://vazstanovyavane-danni-pernik.pages.dev/">
+
+    <!-- Open Graph (за Facebook) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="GSM Сервиз Александър Перник | Ремонт на iPhone и Samsung">
+    <meta property="og:description" content="Експресен ремонт, смяна на оригинални дисплеи и батерии с гаранция в Перник. Софтуерно отключване и възстановяване на данни.">
+    <meta property="og:url" content="https://vazstanovyavane-danni-pernik.pages.dev/">
+    <meta property="og:image" content="https://vazstanovyavane-danni-pernik.pages.dev/og-image.jpg">
+    <meta property="og:locale" content="bg_BG">
+
     <link rel="stylesheet" href="styles.css">
+
+    <!-- JSON-LD Schema за Google (ТОЧНИ ДАННИ) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://vazstanovyavane-danni-pernik.pages.dev/#localbusiness",
+          "name": "GSM Сервиз Александър",
+          "description": "Професионален GSM сервиз в Перник. Експресен ремонт на iPhone, Samsung, Xiaomi, смяна на оригинални дисплеи и батерии с гаранция, софтуерно отключване и възстановяване на данни.",
+          "telephone": "+359876544843",
+          "url": "https://vazstanovyavane-danni-pernik.pages.dev/",
+          "priceRange": "BGN",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "ул. „Минск“ 13, Кооперативен пазар, Магазин № 18",
+            "addressLocality": "Перник",
+            "addressRegion": "кв. Изток",
+            "postalCode": "2304",
+            "addressCountry": "BG"
+          },
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+              "opens": "09:00",
+              "closes": "19:00"
+            }
+          ],
+          "areaServed": [
+            {"@type": "City", "name": "Перник"},
+            {"@type": "City", "name": "Радомир"},
+            {"@type": "City", "name": "Брезник"},
+            {"@type": "City", "name": "Трън"},
+            {"@type": "City", "name": "Земен"},
+            {"@type": "City", "name": "Батановци"}
+          ]
+        },
+        {
+          "@type": "Service",
+          "@id": "https://vazstanovyavane-danni-pernik.pages.dev/#hardware-service",
+          "name": "Хардуерен ремонт и смяна на дисплеи и батерии",
+          "description": "Експресен ремонт на iPhone, Samsung, Xiaomi и други марки. Смяна на оригинални дисплеи и батерии с 1 година гаранция.",
+          "provider": { "@id": "https://vazstanovyavane-danni-pernik.pages.dev/#localbusiness" }
+        },
+        {
+          "@type": "Service",
+          "@id": "https://vazstanovyavane-danni-pernik.pages.dev/#software-service",
+          "name": "Софтуерно отключване и възстановяване на данни",
+          "description": "Софтуерно разкодиране, бързо отключване на заключени екрани и възстановяване на изтрити снимки и контакти.",
+          "provider": { "@id": "https://vazstanovyavane-danni-pernik.pages.dev/#localbusiness" }
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
     <header>
         <div class="nav-container">
-            <a href="/" class="brand">GSM Сервиз Перник</a>
+            <a href="/" class="brand">GSM Сервиз Александър</a>
             <nav>
                 <a href="/">Начало</a>
                 <a href="#services">Услуги</a>
@@ -20,21 +89,25 @@
     </header>
 
     <section class="hero">
-        <h1>Специализиран GSM Сервиз и Софтуерна Помощ в Перник</h1>
-        <p>Счупен дисплей, изтрити семейни снимки или блокиран бизнес профил? Ние извършваме експресен хардуерен ремонт на мобилни телефони и софтуерно извличане на информация от повредени устройства с пълна конфиденциалност.</p>
-        <a href="#contact" class="btn">Заяви Консултация</a>
+        <h1>Професионален GSM Сервиз в Перник</h1>
+        <p>Експресен ремонт на iPhone и Samsung, смяна на оригинални дисплеи и батерии с 1 година гаранция. Софтуерно отключване и възстановяване на данни на Кооперативния пазар в кв. Изток.</p>
+        <a href="https://wa.me/359876544843" class="btn" target="_blank">Пиши ни в WhatsApp</a>
     </section>
 
     <section class="section" id="services">
         <h2>Нашите Услуги</h2>
         <div class="grid">
             <div class="card">
-                <h3>Възстановяване на Facebook Профили</h3>
-                <p>Експертна софтуерна помощ при изгубен достъп, забравени пароли, компрометирана двуфакторна автентикация (2FA) или хакнати бизнес страници в град Перник.</p>
+                <h3>Хардуерен Ремонт</h3>
+                <p>Експресна смяна на оригинални дисплеи и батерии за iPhone, Samsung (Fold/Flip), Xiaomi, Honor, Motorola и др. Даваме 1 година гаранция за оригиналните части.</p>
             </div>
             <div class="card">
-                <h3>Възстановяване на Данни и Снимки</h3>
-                <p>Професионално извличане на изтрити семейни снимки, контакти, важни документи и хронология на чатовете от Viber и WhatsApp директно от вътрешната флаш памет.</p>
+                <h3>Софтуерна Помощ и Данни</h3>
+                <p>Софтуерно разкодиране, бързо отключване на заключени екрани и професионално възстановяване на изтрити снимки, контакти и важна информация.</p>
+            </div>
+            <div class="card">
+                <h3>Аксесоари и Протектори</h3>
+                <p>Оригинални бързи и безжични зарядни, слушалки. Лепене на Privacy протектори със силна защита за екрани и камери.</p>
             </div>
         </div>
     </section>
@@ -42,12 +115,14 @@
     <section class="section" id="contact">
         <h2>Свържете се с Нас</h2>
         <div class="contact-form">
-            <p>Адрес: гр. Перник, ул. Търговска 15 | Телефон: <a href="tel:+359891234567">+359 89 123 4567</a></p>
+            <p><strong>Адрес:</strong> гр. Перник, кв. "Изток", Кооперативен пазар, Магазин № 18 (ул. „Минск“ 13)</p>
+            <p><strong>Телефон:</strong> <a href="tel:+359876544843">087 654 4843</a></p>
+            <p><strong>Работно време:</strong> Всеки ден от 09:00 до 19:00 ч.</p>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2026 GSM Сервиз и Софтуерна Поддръжка Перник. Всички права запазени.</p>
+        <p>&copy; 2026 GSM Сервиз Александър. Всички права запазени.</p>
     </footer>
 </body>
 </html>
